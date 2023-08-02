@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+    font-family:  'Poppins', sans-serif;
+}
+/* Start of styling the header */
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+header .logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-weight: 700;
+    font-size: 1.8em;
+    cursor: default;
+    letter-spacing: 1px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-size:1.1em;
+    font-weight:500;
+    padding-left: 30px;
+} nav a:hover {color: #601cfc}
+
+/* End of styling the header */
+
+/* Start of styling the first section */
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/B.1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display:inline-block;
+    margin-top: 10px;
+    font-size: 3em;
+    color:#00f7ff;  
+    font-weight: 600;
+}
+
+.main h3 {
+    color:#fff;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.main .main-button {    
+    transition: 0.7s ease;
+    color:#fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 0.9375em 2.1575em;
+    margin-bottom: 40px; 
+
+}
+.main-button:hover { background-color: #0a49f6; transform:scale(1.1, 1.1);}
+
+.social-icons a{
+    display: inline-block;
+    color:#fff;
+    font-size: 1.7em;
+    padding-right: 40px;
+}
+.social-icons a .icon{
+    color: #fff;
+    padding: 5px;
+    font-size: 30px;
+    transition: 0.5s ease;
+}
+.i-upwork .icon{
+    translate: 0 2px;
+}
+.social-icons .i-upwork .icon:hover{ transform: scale(1.2); color:green;}
+.social-icons .i-fiverr .icon:hover{ transform: scale(1.2); color:#a0f71f;}
+.social-icons .i-linkedin .icon:hover{ transform: scale(1.2); color:#006eff;}
+/* End of styling the 1st section */
+
+/* Start of styling 2nd section */
+
+.title {
+    display: flex;
+    justify-content: center;
+    color:#3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color:#fff;
+    width: 21.25em;
+    box-shadow: 5px 5px 25px 0px rgba(53, 52, 52, 0.659);
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.7s, box-shadow .3s linear;
+} .card:hover {transform: scale(1.1); box-shadow: 3px 3px 15px rgba(53, 52, 52, 0.659);}
+
+.icon{
+    font-size: 8em;
+    text-align: center;
+    color:black;
+}
+
+.info {
+    text-align: center;
+}
+.info h3 {
+    color: #4f7eff;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+/* End of styling the 2nd section */
+/* Start of styling the third section */
+
+.projects {
+    background-color:black;
+}
+
+.projects .content {
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease
+} .project-card:hover {transform: scale(1.1)}
+
+.project-image img{
+    width: 100%;
+} .project-card:hover .project-image img{opacity:0.9;}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-info p{
+    font-size: 0.8em;
+    color:black;
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.vist-it{
+    text-decoration: none;
+    color: #3a6cf4;
+} .vist-it:hover{color: #601cfc;}
+
+/* End of styling the third section */
+/* start of styling the fourth section */
+
+.contact .icon {
+    color:#0a49f6;
+    font-size: 4.5em;
+} 
+
+.contact .info h3{
+    color:#000016;
+}
+
+.contact .info p{
+    font-size: 1.5em;
+}
+
+.contact .content .card {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.footer {
+    background-color:#000016;
+    color:#fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span{
+    color:#3a6cf4;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding-right: 20px;
+}
+
+@media(max-width:1023px){
+
+    header{
+        padding: 12px 20px;
+    }
+
+    nav a {
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+    
+    section {
+        padding: 80px 20px;
+    }
+
+    .card .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact .content .card{ 
+        margin: 0 4px 30px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        padding: 0px 10px;
+        margin: 0;
+    }
+
+    #footer-icon {
+        padding: 0;
+    }
+    .footer-title span{
+        display: block;
+    }
+}
+
+@media(max-width:450px){
+    body{
+        font-size: 12px;
+    }
+    .main .social-icons{
+    padding-left: 5px;
+    }
+    
+} 
